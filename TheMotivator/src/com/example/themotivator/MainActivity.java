@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
+import com.example.themotivator.applist.activity.ApkListActivity;
+
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.ActionBar;
 import android.support.v4.app.Fragment;
@@ -63,8 +65,9 @@ public class MainActivity extends Activity {
         		  
         		  switch (position){
         			  case 0:
-        				  Intent loginIntent = new Intent(MainActivity.this, LoginActivity.class);
-        				  MainActivity.this.startActivity(loginIntent);
+        				  Intent ApkListActivityIntent = new Intent(MainActivity.this, ApkListActivity.class);
+//        				  Intent loginIntent = new Intent(MainActivity.this, LoginActivity.class);
+        				  MainActivity.this.startActivity(ApkListActivityIntent);
         				  break;
         				  
         			  case 1:
