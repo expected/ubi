@@ -32,10 +32,13 @@ import android.widget.TextView;
 import android.widget.Toast;
 import android.os.Build;
 
-public class MainActivity extends Activity {
 
+
+public class MainActivity extends Activity {
+	private final int REQUEST_CODE_PICK_FILE = 2;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+    	final Activity activityForButton = this;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.fragment_main);
 
@@ -71,11 +74,20 @@ public class MainActivity extends Activity {
         				  break;
         				  
         			  case 1:
+        				  Intent fileExploreIntent = new Intent(
+        	    					com.example.themotivator.FileBrowserActivity.INTENT_ACTION_SELECT_FILE,
+        	        				null,activityForButton, com.example.themotivator.FileBrowserActivity.class
+        	        				);
+        	        		
+        	        		startActivityForResult(
+        	        				fileExploreIntent,
+        	        				REQUEST_CODE_PICK_FILE
+        	        				);
         				  //amKillProcess("com.facebook.katana");
         				  
-        				  Toast.makeText(getApplicationContext(),
-        					      "Killing facebook process..." + (killPackageProcesses("com.facebook.katana") ? "Killed":"Not killed"), 
-        					      Toast.LENGTH_LONG).show();
+//        				  Toast.makeText(getApplicationContext(),
+//        					      "Killing facebook process..." + (killPackageProcesses("com.facebook.katana") ? "Killed":"Not killed"), 
+//        					      Toast.LENGTH_LONG).show();
         				  /*
         				  Toast.makeText(getApplicationContext(),
         					      "Show us your results...", Toast.LENGTH_LONG)
