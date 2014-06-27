@@ -13,6 +13,7 @@ tmp/
 *~.nib
 local.properties
 .classpath
+.class
 .settings/
 .loadpath
 
@@ -220,3 +221,4 @@ TheMotivator/bin/classes.dex
 TheMotivator/bin/dexedLibs/android-support-v7-appcompat-adb3a246ac04eca7b29a2f5da9616324.jar
 TheMotivator/bin/resources.ap_
 TheMotivator/gen/android/support/v7/appcompat/R.java
+*.apk
