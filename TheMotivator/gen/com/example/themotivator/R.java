@@ -982,7 +982,11 @@ containing a value of this type.
         public static final int abc_textfield_searchview_holo_light=0x7f020054;
         public static final int abc_textfield_searchview_right_holo_dark=0x7f020055;
         public static final int abc_textfield_searchview_right_holo_light=0x7f020056;
-        public static final int ic_launcher=0x7f020057;
+        public static final int dir_up=0x7f020057;
+        public static final int file_icon=0x7f020058;
+        public static final int folder_icon=0x7f020059;
+        public static final int folder_icon_light=0x7f02005a;
+        public static final int ic_launcher=0x7f02005b;
     }
     public static final class id {
         public static final int action_bar=0x7f05001c;
@@ -993,11 +997,11 @@ containing a value of this type.
         public static final int action_bar_subtitle=0x7f050023;
         public static final int action_bar_title=0x7f050022;
         public static final int action_context_bar=0x7f05001d;
-        public static final int action_forgot_password=0x7f05005d;
+        public static final int action_forgot_password=0x7f050062;
         public static final int action_menu_divider=0x7f050016;
         public static final int action_menu_presenter=0x7f050017;
         public static final int action_mode_close_button=0x7f050024;
-        public static final int action_settings=0x7f05005e;
+        public static final int action_settings=0x7f050063;
         public static final int activity_chooser_view_content=0x7f050025;
         public static final int always=0x7f05000b;
         public static final int and_version=0x7f050050;
@@ -1007,11 +1011,12 @@ containing a value of this type.
         public static final int applist=0x7f050059;
         public static final int appname=0x7f050056;
         public static final int beginning=0x7f050011;
-        public static final int button1=0x7f05005a;
-        public static final int check=0x7f05005c;
+        public static final int cancel=0x7f05005b;
+        public static final int check=0x7f05005d;
         public static final int checkbox=0x7f05002d;
         public static final int collapseActionView=0x7f05000d;
         public static final int container=0x7f050043;
+        public static final int currentDirectoryTextView=0x7f050060;
         public static final int default_activity_button=0x7f050028;
         public static final int dialog=0x7f05000e;
         public static final int disableHome=0x7f050008;
@@ -1022,6 +1027,7 @@ containing a value of this type.
         public static final int expand_activities_button=0x7f050026;
         public static final int expanded_menu=0x7f05002c;
         public static final int features=0x7f05004a;
+        public static final int fileListView=0x7f050061;
         public static final int home=0x7f050014;
         public static final int homeAsUp=0x7f050005;
         public static final int icon=0x7f05002a;
@@ -1029,7 +1035,7 @@ containing a value of this type.
         public static final int image=0x7f050027;
         public static final int insdate=0x7f050053;
         public static final int installed=0x7f050052;
-        public static final int label=0x7f05005b;
+        public static final int label=0x7f05005c;
         public static final int last_modify=0x7f050055;
         public static final int listMode=0x7f050001;
         public static final int listView1=0x7f050058;
@@ -1043,6 +1049,7 @@ containing a value of this type.
         public static final int never=0x7f050009;
         public static final int none=0x7f050010;
         public static final int normal=0x7f050000;
+        public static final int ok=0x7f05005a;
         public static final int pack_name=0x7f050046;
         public static final int package_name=0x7f050047;
         public static final int password=0x7f050040;
@@ -1064,6 +1071,7 @@ containing a value of this type.
         public static final int search_plate=0x7f050036;
         public static final int search_src_text=0x7f050037;
         public static final int search_voice_btn=0x7f05003b;
+        public static final int selectCurrentDirectoryButton=0x7f05005f;
         public static final int shortcut=0x7f05002e;
         public static final int showCustom=0x7f050007;
         public static final int showHome=0x7f050004;
@@ -1076,6 +1084,7 @@ containing a value of this type.
         public static final int title=0x7f05002b;
         public static final int top_action_bar=0x7f050020;
         public static final int up=0x7f050021;
+        public static final int upDirectoryButton=0x7f05005e;
         public static final int useLogo=0x7f050003;
         public static final int version=0x7f050048;
         public static final int version_name=0x7f050049;
@@ -1139,6 +1148,7 @@ containing a value of this type.
         public static final int rowbuttonlayout=0x7f03001d;
         public static final int rowlayout=0x7f03001e;
         public static final int support_simple_spinner_dropdown_item=0x7f03001f;
+        public static final int ua_com_vassiliev_filebrowser_layout=0x7f030020;
     }
     public static final class menu {
         public static final int login=0x7f0c0000;

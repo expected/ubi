@@ -357,7 +357,7 @@ public class FileBrowserActivity extends Activity {
 				// TODO: change next line for empty directory, so text will be
 				// centered
 				textView.setCompoundDrawablePadding(dp3);
-				//textView.setBackgroundColor(Color.LTGRAY);
+				textView.setBackgroundColor(Color.LTGRAY);
 				return view;
 			}// public View getView(int position, View convertView, ViewGroup
 		};// adapter = new ArrayAdapter<Item>(this,
