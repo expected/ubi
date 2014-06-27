@@ -76,7 +76,6 @@ public class MainActivity extends Activity {
         		  switch (position){
         			  case 0:
         				  Intent ApkListActivityIntent = new Intent(MainActivity.this, ApkListActivity.class);
-//        				  Intent loginIntent = new Intent(MainActivity.this, LoginActivity.class);
         				  MainActivity.this.startActivity(ApkListActivityIntent);
         				  break;
         				  
